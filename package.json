@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:contract": "cd contract && yarn test"
+    "test:contract": "cd contract && yarn test",
+    "deploy": "cd contract/scripts && ./1.init.sh",
+    "build:web": "cd frontend && yarn build"
   },
   "author": "",
   "license": "ISC"

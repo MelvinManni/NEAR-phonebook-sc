@@ -30,7 +30,6 @@ main {
 }
 
 h1 {
-  background-image: url(assets/logo-black.svg);
   background-position: center 1em;
   background-repeat: no-repeat;
   background-size: auto 1.5em;
@@ -190,6 +189,7 @@ input:focus {
   transition: 0.35s ease all;
   border-radius: 6px;
   display: flex;
+  margin-bottom: 20px;
 }
 
 .card * {
@@ -200,6 +200,7 @@ input:focus {
 .card-content {
   flex: 1;
   margin-left: 10px;
+  text-align: left;
 }
 
 .card-content h5 {
@@ -287,9 +288,7 @@ aside footer *:last-child {
     --shadow: #2a2a2a;
     --light-gray: #444;
   }
-  h1 {
-    background-image: url(assets/logo-white.svg);
-  }
+
   input:focus {
     box-shadow: 0 0 10em rgba(255, 255, 255, 0.02) inset;
   }
